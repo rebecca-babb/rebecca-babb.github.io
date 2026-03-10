@@ -1,0 +1,271 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Rebecca Babb — Portfolio</title>
+  <link rel="stylesheet" href="styles.css" />
+  <link href="https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@0;1&family=DM+Sans:wght@300;400;500;600&display=swap" rel="stylesheet" />
+</head>
+<body>
+
+  <!-- NAV -->
+  <nav id="navbar">
+    <div class="nav-inner">
+      <span class="nav-logo">RB</span>
+      <ul class="nav-links">
+        <li><a href="#about">About</a></li>
+        <li><a href="#experience">Experience</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#contact" class="nav-cta">Contact</a></li>
+      </ul>
+      <button class="hamburger" id="hamburger" aria-label="Menu">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+    <ul class="mobile-menu" id="mobileMenu">
+      <li><a href="#about">About</a></li>
+      <li><a href="#experience">Experience</a></li>
+      <li><a href="#skills">Skills</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+  </nav>
+
+  <!-- HERO -->
+  <section id="hero">
+    <div class="hero-bg">
+      <div class="hero-photo">
+        <img src="IMG_5512.jpeg" alt="Full moon rising over city rooftops" id="heroPhoto" />
+        <div class="hero-photo-overlay"></div>
+      </div>
+      <div class="blob blob-1"></div>
+      <div class="blob blob-2"></div>
+      <div class="grid-lines"></div>
+    </div>
+    <div class="hero-content">
+      <p class="hero-eyebrow fade-up">Psychology · Business · Wellness</p>
+      <h1 class="fade-up delay-1">
+        Hi, I'm <em>Rebecca</em><br />Babb.
+      </h1>
+      <p class="hero-sub fade-up delay-2">
+        Rutgers University student blending the science of human behavior with a passion for
+        helping people feel their best — in the office, on the floor, and in the gym.
+      </p>
+      <div class="hero-actions fade-up delay-3">
+        <a href="#experience" class="btn-primary">View My Work</a>
+        <a href="#contact" class="btn-ghost">Get in Touch</a>
+      </div>
+    </div>
+    <div class="hero-scroll-hint fade-up delay-4">
+      <span>Scroll</span>
+      <div class="scroll-line"></div>
+    </div>
+  </section>
+
+  <!-- ABOUT -->
+  <section id="about">
+    <div class="container about-grid">
+      <div class="about-visual">
+        <div class="about-card">
+          <div class="about-card-inner">
+            <div class="about-icon">🎓</div>
+            <span>Rutgers University</span>
+            <small>B.A. Psychology · Business Minor</small>
+          </div>
+        </div>
+        <div class="about-card accent-card">
+          <div class="about-card-inner">
+            <div class="about-icon">📍</div>
+            <span>Watchung, NJ</span>
+            <small>Available for opportunities</small>
+          </div>
+        </div>
+        <div class="about-stat-row">
+          <div class="stat"><span class="stat-num">3</span><span class="stat-label">Roles</span></div>
+          <div class="stat"><span class="stat-num">∞</span><span class="stat-label">Curiosity</span></div>
+          <div class="stat"><span class="stat-num">💪</span><span class="stat-label">Driven</span></div>
+        </div>
+      </div>
+      <div class="about-text">
+        <p class="section-label">About Me</p>
+        <h2>People-first, always.</h2>
+        <p>
+          I'm a junior at Rutgers University pursuing a Psychology degree with a Business minor.
+          My academic path has been shaped by a genuine curiosity about <strong>why people behave the way they do</strong> —
+          and how that knowledge can be used to create better experiences.
+        </p>
+        <p>
+          From managing front-desk operations at a medical practice to guiding customers through a
+          retail store to coaching peers toward their fitness goals, every role I've held has been
+          rooted in one thing: <em>connection</em>.
+        </p>
+        <p>
+          I bring warmth, reliability, and a driven work ethic to everything I take on. I'm looking
+          for the next opportunity to grow and make a real impact.
+        </p>
+      </div>
+    </div>
+  </section>
+
+  <!-- EXPERIENCE -->
+  <section id="experience">
+    <div class="container">
+      <p class="section-label center">Work & Experience</p>
+      <h2 class="center">Where I've Made an Impact</h2>
+      <div class="timeline">
+
+        <div class="timeline-item" data-reveal>
+          <div class="timeline-dot"></div>
+          <div class="timeline-card">
+            <div class="tcard-header">
+              <div>
+                <h3>Office Assistant</h3>
+                <p class="tcard-place">Private Ophthalmology Practice · Brooklyn, NY</p>
+              </div>
+              <span class="tcard-badge">Healthcare</span>
+            </div>
+            <ul>
+              <li>Assisted with daily administrative operations in a high-volume medical office.</li>
+              <li>Communicated with patients to schedule appointments and resolve inquiries with empathy.</li>
+              <li>Maintained organized records and provided front-desk support for clinical staff.</li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="timeline-item" data-reveal>
+          <div class="timeline-dot"></div>
+          <div class="timeline-card">
+            <div class="tcard-header">
+              <div>
+                <h3>Retail Sales Associate</h3>
+                <p class="tcard-place">HomeSense · Watchung, NJ</p>
+              </div>
+              <span class="tcard-badge">Retail</span>
+            </div>
+            <ul>
+              <li>Delivered outstanding customer service in a fast-paced retail environment.</li>
+              <li>Guided customers through product selection and improved overall store experience.</li>
+              <li>Managed merchandising displays, organization, and inventory support.</li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="timeline-item" data-reveal>
+          <div class="timeline-dot"></div>
+          <div class="timeline-card">
+            <div class="tcard-header">
+              <div>
+                <h3>Independent Fitness Trainer</h3>
+                <p class="tcard-place">Personal Training · Watchung, NJ</p>
+              </div>
+              <span class="tcard-badge">Wellness</span>
+            </div>
+            <ul>
+              <li>Developed personalized workout plans for peers focused on strength and conditioning.</li>
+              <li>Applied psychology of motivation to keep clients engaged and progressing.</li>
+              <li>Emphasized safe, goal-oriented training techniques and healthy habit formation.</li>
+            </ul>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- EDUCATION -->
+  <section id="education">
+    <div class="container edu-block">
+      <div class="edu-text">
+        <p class="section-label">Education</p>
+        <h2>Rutgers University</h2>
+        <p class="edu-degree">B.A. in Psychology · Minor in Business</p>
+        <p class="edu-detail">Newark, NJ · Junior Standing · Expected Graduation 2026</p>
+        <p>
+          Coursework spanning consumer behavior, psychology of motivation, and business
+          fundamentals — giving me a uniquely cross-disciplinary perspective on people and
+          organizations.
+        </p>
+      </div>
+      <div class="edu-courses">
+        <div class="course-pill">Psychology</div>
+        <div class="course-pill accent">Consumer Behavior</div>
+        <div class="course-pill">Business Fundamentals</div>
+        <div class="course-pill accent">Motivation & Behavior</div>
+        <div class="course-pill">Organizational Psychology</div>
+        <div class="course-pill accent">Health & Wellness</div>
+      </div>
+    </div>
+  </section>
+
+  <!-- SKILLS -->
+  <section id="skills">
+    <div class="container">
+      <p class="section-label center">What I Bring</p>
+      <h2 class="center">Skills & Strengths</h2>
+      <div class="skills-grid">
+        <div class="skill-card" data-reveal>
+          <div class="skill-icon">💬</div>
+          <h4>Communication</h4>
+          <p>Clear, empathetic communication with patients, customers, and peers in high-pressure environments.</p>
+        </div>
+        <div class="skill-card" data-reveal>
+          <div class="skill-icon">🤝</div>
+          <h4>Relationship Building</h4>
+          <p>Natural ability to build trust and rapport quickly — a skill honed across healthcare, retail, and coaching roles.</p>
+        </div>
+        <div class="skill-card" data-reveal>
+          <div class="skill-icon">🗂️</div>
+          <h4>Organization</h4>
+          <p>Detail-oriented and reliable in managing records, schedules, and multi-task environments.</p>
+        </div>
+        <div class="skill-card" data-reveal>
+          <div class="skill-icon">🧠</div>
+          <h4>Psychology Insight</h4>
+          <p>Academic grounding in human behavior, motivation, and consumer psychology applied to real-world interactions.</p>
+        </div>
+        <div class="skill-card" data-reveal>
+          <div class="skill-icon">🏋️</div>
+          <h4>Fitness & Wellness</h4>
+          <p>Deep personal commitment to strength training, with hands-on experience guiding others toward their goals.</p>
+        </div>
+        <div class="skill-card" data-reveal>
+          <div class="skill-icon">👥</div>
+          <h4>Team Collaboration</h4>
+          <p>Thrives in team settings — approachable, supportive, and adaptable to diverse working styles.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- CONTACT -->
+  <section id="contact">
+    <div class="container contact-inner">
+      <p class="section-label center">Get in Touch</p>
+      <h2 class="center">Let's Connect</h2>
+      <p class="contact-sub center">
+        I'm open to internships, part-time roles, and conversations about psychology, wellness, or anything in between.
+      </p>
+      <div class="contact-cards">
+        <a href="/cdn-cgi/l/email-protection#63111501575723100002110f06170e020a0f4d111617040611104d060716" class="contact-card">
+          <span class="contact-icon">✉️</span>
+          <span class="contact-label">Email</span>
+          <span class="contact-value"><span class="__cf_email__" data-cfemail="deaca8bceaea9eadbdbfacb2bbaab3bfb7b2f0acabaab9bbacadf0bbbaab">[email&#160;protected]</span></span>
+        </a>
+        <a href="tel:9083043287" class="contact-card">
+          <span class="contact-icon">📞</span>
+          <span class="contact-label">Phone</span>
+          <span class="contact-value">(908) 304-3287</span>
+        </a>
+        <div class="contact-card">
+          <span class="contact-icon">📍</span>
+          <span class="contact-label">Location</span>
+          <span class="contact-value">Watchung, NJ</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer>
+    <div class="container footer-inner">
+      <span clas
